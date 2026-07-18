@@ -5,9 +5,9 @@ node {
     }
     stage('Test') {
         // Run tests
-        sh 'echo "Running tests..."'
+        bat'echo "Running tests..."'
     }
     stage('Deploy') {
-        sh 'echo "Deploying application..."'
+        bat 'echo "Deploying application..."'
     }
 }
