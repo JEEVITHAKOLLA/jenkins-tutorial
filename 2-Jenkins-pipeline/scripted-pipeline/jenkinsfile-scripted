@@ -1,7 +1,7 @@
 node {
     stage('Build') {
         // Run build commands
-        sh 'echo "Building project..."'
+        bat 'echo "Building project..."'
     }
     stage('Test') {
         // Run tests
